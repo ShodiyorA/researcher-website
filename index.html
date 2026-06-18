@@ -11,7 +11,17 @@
     padding:0;
     box-sizing:border-box;
 }
+nav ul{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: flex-start;
+    scrollbar-width: none;
+}
 
+nav ul::-webkit-scrollbar{
+    display: none;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height:1.7;
